@@ -1,0 +1,56 @@
+body {
+    font-family: Bookman Old Syle;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+	text-align: justify;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+	font-family: Great Vibes;
+	font-size: 30pt;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #007bff;
+    padding: 0px 0;
+    justify-content: center;
+	font-size: 14pt;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    flex: 1;
+    margin: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+ 
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 0 0;
+}
